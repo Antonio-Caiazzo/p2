@@ -30,7 +30,7 @@
 					<li><span class="dettagli">Prezzo</span>: &euro;<%=product.getPrezzo()%></li>
 					<li><span class="dettagli">Disponibile dal</span>: <%=product.getDataUscita()%></li>
 					<% if(product.isInVendita()) {%>
-						<li><span class="dettagli">Disponibilità Immediata</span></li>
+						<li><span class="dettagli">Disponibilita Immediata</span></li>
 					<%}else{ %>
 						<li><span class="dettagli">Non disponibile</span></li>
 					<%}%>

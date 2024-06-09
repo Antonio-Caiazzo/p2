@@ -84,7 +84,7 @@
 				if(x != ''){
 					$.post("./CheckUsername",{"us" : x},function(data){
 						if(data == '0'){
-							$("#errUser").html("username già in uso").css({"color" : "red"});
+							$("#errUser").html("username gia in uso").css({"color" : "red"});
 						}
 						else{
 							$("#errUser").html("");
@@ -105,7 +105,7 @@
 				if(x != ''){
 					$.post("./CheckEmail",{"em" : x},function(data){
 						if(data == '0'){
-							$("#errEmail").html("email già in uso").css({"color" : "red"});
+							$("#errEmail").html("email gia in uso").css({"color" : "red"});
 						}
 						else{
 							$("#errEmail").html("");

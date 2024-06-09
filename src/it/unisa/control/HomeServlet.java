@@ -50,8 +50,7 @@ public class HomeServlet extends HttpServlet {
 			e.printStackTrace();
 		}
 		
-		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/" + redirectedPage);
-		dispatcher.forward(request, response);
+		request.getRequestDispatcher("Home.jsp").forward(request, response);
 	}
 
 
